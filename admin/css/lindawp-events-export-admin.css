@@ -1,0 +1,48 @@
+/**
+ * Admin styles for LindaWP Events Export
+ *
+ * @package    Lindawp_Events_Export
+ * @subpackage Lindawp_Events_Export/admin/css
+ */
+
+.lindawp-events-export-form .form-table {
+    margin-top: 1em;
+}
+
+.lindawp-events-export-form .error-message {
+    color: #dc3232;
+    display: none;
+    margin-top: 0.5em;
+}
+
+/* PDF Preview Styles */
+.lindawp-events-export-preview .cover-page {
+    text-align: center;
+    padding-top: 40%;
+}
+
+.lindawp-events-export-preview .site-name {
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.lindawp-events-export-preview .title {
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+
+.lindawp-events-export-preview .date-range {
+    font-size: 14pt;
+    color: #666;
+}
+
+/* Form Elements */
+.lindawp-events-export-form input[type="date"] {
+    width: 200px;
+}
+
+.lindawp-events-export-form .description {
+    margin-top: 5px;
+    color: #666;
+}
