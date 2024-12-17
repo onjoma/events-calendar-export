@@ -35,11 +35,6 @@
 2. Extract it to your `/wp-content/plugins/` directory
 3. Activate the plugin through the WordPress admin panel
 
-### Requirements
-- WordPress 5.0 or higher
-- PHP 7.4 or higher
-- [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/) plugin must be installed and activated
-
 > 📝 **Note**: All required dependencies are included in the plugin. No additional installation steps are needed.
 
 ## 🚀 Usage
