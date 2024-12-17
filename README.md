@@ -1,28 +1,33 @@
-# Events Calendar Listings Export
+# Events Calendar Listings Export 📅
 
-A WordPress plugin that allows you to export events from The Events Calendar plugin to PDF format with customizable settings.
+[![WordPress](https://img.shields.io/badge/WordPress-5.0%2B-blue.svg)](https://wordpress.org/)
+[![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net/)
+[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 
-## Features
+> 🚀 A powerful WordPress plugin that transforms your Events Calendar entries into beautifully formatted PDF documents.
 
-- Export events to PDF for a selected date range
-- Customizable PDF settings including logo upload
-- Professional PDF layout with cover page
-- Compatible with The Events Calendar plugin
-- Easy-to-use admin interface
+## ✨ Features
 
-## Requirements
+- 📊 Export events to PDF for any selected date range
+- 🎨 Customizable PDF settings with logo upload
+- 📄 Professional PDF layout with cover page
+- 🔄 Seamless integration with The Events Calendar plugin
+- 🎯 User-friendly admin interface
+- 🌐 Internationalization ready
+
+## 🔧 Requirements
 
 - WordPress 5.0 or higher
 - PHP 7.4 or higher
-- The Events Calendar plugin
+- [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/) plugin
 - Composer (for installation)
 
-## Installation
+## 📦 Installation
 
 1. Clone this repository to your WordPress plugins directory:
 ```bash
 cd wp-content/plugins/
-git clone [your-repository-url] lindawp-events-export
+git clone https://github.com/onjoma/events-calendar-export.git lindawp-events-export
 ```
 
 2. Install dependencies using Composer:
@@ -33,49 +38,69 @@ composer install
 
 3. Activate the plugin through the WordPress admin panel.
 
-## Usage
+## 🚀 Usage
 
-1. Go to "Events Export" in your WordPress admin menu
-2. Configure PDF settings including your logo under "PDF Settings"
-3. Select a date range for the events you want to export
-4. Click "Export to PDF" to generate your PDF
+1. Navigate to "Events Export" in your WordPress admin menu
+2. Configure PDF settings:
+   - 🖼️ Upload your logo for branding
+   - 📏 Recommended logo size: 200px width
+   - 📄 Logo appears on PDF cover page
+3. Select your desired date range
+4. Click "Export to PDF" to generate your document
 
-## Configuration
+## ⚙️ Configuration
 
 ### PDF Settings
-- Upload your logo for the PDF cover page
-- Recommended logo size: 200px width
-- Logo will appear on the PDF cover page above your site name
+The plugin allows you to customize your PDF exports with the following options:
 
-## Development
+- **Logo Upload** 🖼️
+  - Supports various image formats
+  - Automatically sized for optimal display
+  - Appears on the PDF cover page
+
+- **Date Range Selection** 📅
+  - Flexible date picker
+  - Export events for any time period
+
+## 🛠️ Development
 
 ### Setup Development Environment
-1. Clone the repository
-2. Install dependencies: `composer install`
-3. Make sure you have The Events Calendar plugin installed and activated
+1. 📥 Clone the repository
+2. 🔧 Install dependencies: `composer install`
+3. ✅ Ensure The Events Calendar plugin is installed and activated
 
 ### File Structure
 ```
 lindawp-events-export/
-├── admin/                 # Admin-related files
-├── includes/             # Core plugin files
-├── languages/            # Translation files
-├── public/              # Public-facing functionality
-└── vendor/              # Composer dependencies
+├── 📁 admin/                 # Admin-related files
+├── 📁 includes/             # Core plugin files
+├── 📁 languages/            # Translation files
+├── 📁 public/              # Public-facing functionality
+└── 📁 vendor/              # Composer dependencies
 ```
 
-## Contributing
+## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+We welcome contributions! Here's how you can help:
 
-## License
+1. 🍴 Fork the repository
+2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
+5. 🎯 Open a Pull Request
+
+## 📄 License
 
 This project is licensed under the GPL v2 or later - see the [LICENSE](LICENSE) file for details.
 
-## Credits
+## 👨‍💻 Author
 
-Developed by LindaWP
+**LindaWP** - 
+
+## 🙏 Acknowledgments
+
+- Built with love for The Events Calendar community
+- Special thanks to all contributors
+
+---
+⭐ If you find this plugin helpful, please consider giving it a star!
