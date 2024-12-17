@@ -20,23 +20,27 @@
 - WordPress 5.0 or higher
 - PHP 7.4 or higher
 - [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/) plugin
-- Composer (for installation)
 
 ## 📦 Installation
 
-1. Clone this repository to your WordPress plugins directory:
-```bash
-cd wp-content/plugins/
-git clone https://github.com/onjoma/events-calendar-export.git lindawp-events-export
-```
+### Option 1: WordPress Admin Panel (Recommended)
+1. Download the plugin zip file
+2. Go to WordPress Admin → Plugins → Add New
+3. Click "Upload Plugin" and choose the downloaded zip file
+4. Click "Install Now"
+5. Activate the plugin through the WordPress admin panel
 
-2. Install dependencies using Composer:
-```bash
-cd lindawp-events-export
-composer install
-```
+### Option 2: Manual Installation
+1. Download the plugin zip file
+2. Extract it to your `/wp-content/plugins/` directory
+3. Activate the plugin through the WordPress admin panel
 
-3. Activate the plugin through the WordPress admin panel.
+### Requirements
+- WordPress 5.0 or higher
+- PHP 7.4 or higher
+- [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/) plugin must be installed and activated
+
+> 📝 **Note**: All required dependencies are included in the plugin. No additional installation steps are needed.
 
 ## 🚀 Usage
 
